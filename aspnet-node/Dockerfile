@@ -21,7 +21,6 @@ RUN set -x \
 
 # Add non-root user
 RUN adduser --disabled-password --gecos "" devx
-# ENV HOME /home/devx
 
 # Install npm dependecies
 RUN npm install -g npm@3.7.2 \
